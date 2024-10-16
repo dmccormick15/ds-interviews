@@ -1,2 +1,2 @@
-*.ipynb
 bc_environment.yaml
+.venv/

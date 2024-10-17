@@ -1,0 +1,100 @@
+2024-10-17 09:36:07,379 - root - INFO - The dataset has 39744 observations and 16 features.
+2024-10-17 09:36:07,399 - root - INFO - The features in the dataset have the following empirical statistics: 
+               datetime_utc        wtempc        atempc  winddir_dcfn  \
+count                39744  39408.000000  39548.000000  39548.000000   
+mean   2023-07-27 23:52:30     11.273574     10.180927    160.069030   
+min    2023-01-02 00:00:00      0.000000    -23.500000      0.000000   
+25%    2023-04-15 11:56:15      2.700000      2.200000     48.000000   
+50%    2023-07-27 23:52:30      9.600000      9.000000    183.000000   
+75%    2023-11-08 11:48:45     21.000000     18.800000    199.000000   
+max    2024-02-19 23:45:00     26.500000     33.300000    360.000000   
+std                    NaN      8.958956      9.622149    106.167885   
+
+           precp_in      relh_pct           spc       dox_mgl            ph  \
+count  39548.000000  39551.000000  39401.000000  39390.000000  39313.000000   
+mean       0.000727     72.246110    238.469760     11.857111      7.980772   
+min        0.000000     13.100000    140.000000      6.900000      7.600000   
+25%        0.000000     58.200000    210.000000      8.800000      7.900000   
+50%        0.000000     73.900000    241.000000     12.100000      8.000000   
+75%        0.000000     89.000000    262.000000     14.600000      8.100000   
+max        0.200000    100.000000    420.000000     16.500000      8.500000   
+std        0.005529     19.596247     40.555304      2.908125      0.147634   
+
+       windgust_knots       wse1988      wvel_fps         mbars  \
+count    39551.000000  39610.000000  39600.000000  39548.000000   
+mean         2.984082      1.702534      0.824681   1015.315541   
+min          0.000000     -5.270000     -1.700000    979.000000   
+25%          1.450000      0.090000      0.340000   1010.000000   
+50%          2.530000      1.720000      0.890000   1015.000000   
+75%          4.060000      3.300000      1.270000   1021.000000   
+max         15.700000      8.250000      4.470000   1039.000000   
+std          2.057004      1.944837      0.736398      8.221116   
+
+       windspeed_knots           par      turb_fnu  
+count     39551.000000  39548.000000  37279.000000  
+mean          1.425132    174.830844     12.628855  
+min           0.000000      0.000000      0.000000  
+25%           0.500000      0.300000      4.200000  
+50%           1.100000      2.600000      5.900000  
+75%           1.950000    204.000000     10.600000  
+max          10.200000   1430.000000    572.000000  
+std           1.293658    304.460149     26.140960  
+2024-10-17 09:36:07,406 - root - INFO - 15 features out of 16 have missing values.
+2024-10-17 09:36:07,406 - root - INFO - wse1988 is missing the least data in the dataset: 0.34%
+2024-10-17 09:36:07,407 - root - INFO - turb_fnu is missing the most data in the dataset: 6.20%
+2024-10-17 09:36:07,408 - root - INFO - The mean percentage of missing values in the dataset is: 
+ 0.97%
+2024-10-17 09:36:07,412 - root - WARNING - 6.20% of the values are missing from turb_fnu. Imputing missing values.
+2024-10-17 09:36:08,187 - root - INFO - Correlation heatmap has been saved to logs/figures/correlation_heatmap.png
+2024-10-17 09:36:10,712 - root - INFO - Boxplots of numerical features have been saved to logs/figures/boxplots.png
+2024-10-17 09:36:21,473 - root - INFO - Histograms of numerical features have been saved to logs/figures/histograms.png
+2024-10-17 09:38:51,375 - root - INFO - The dataset has 39744 observations and 16 features.
+2024-10-17 09:38:51,375 - root - INFO - The features in the dataset have the following empirical statistics: 
+               datetime_utc        wtempc        atempc  winddir_dcfn  \
+count                39744  39408.000000  39548.000000  39548.000000   
+mean   2023-07-27 23:52:30     11.273574     10.180927    160.069030   
+min    2023-01-02 00:00:00      0.000000    -23.500000      0.000000   
+25%    2023-04-15 11:56:15      2.700000      2.200000     48.000000   
+50%    2023-07-27 23:52:30      9.600000      9.000000    183.000000   
+75%    2023-11-08 11:48:45     21.000000     18.800000    199.000000   
+max    2024-02-19 23:45:00     26.500000     33.300000    360.000000   
+std                    NaN      8.958956      9.622149    106.167885   
+
+           precp_in      relh_pct           spc       dox_mgl            ph  \
+count  39548.000000  39551.000000  39401.000000  39390.000000  39313.000000   
+mean       0.000727     72.246110    238.469760     11.857111      7.980772   
+min        0.000000     13.100000    140.000000      6.900000      7.600000   
+25%        0.000000     58.200000    210.000000      8.800000      7.900000   
+50%        0.000000     73.900000    241.000000     12.100000      8.000000   
+75%        0.000000     89.000000    262.000000     14.600000      8.100000   
+max        0.200000    100.000000    420.000000     16.500000      8.500000   
+std        0.005529     19.596247     40.555304      2.908125      0.147634   
+
+       windgust_knots       wse1988      wvel_fps         mbars  \
+count    39551.000000  39610.000000  39600.000000  39548.000000   
+mean         2.984082      1.702534      0.824681   1015.315541   
+min          0.000000     -5.270000     -1.700000    979.000000   
+25%          1.450000      0.090000      0.340000   1010.000000   
+50%          2.530000      1.720000      0.890000   1015.000000   
+75%          4.060000      3.300000      1.270000   1021.000000   
+max         15.700000      8.250000      4.470000   1039.000000   
+std          2.057004      1.944837      0.736398      8.221116   
+
+       windspeed_knots           par      turb_fnu  
+count     39551.000000  39548.000000  37279.000000  
+mean          1.425132    174.830844     12.628855  
+min           0.000000      0.000000      0.000000  
+25%           0.500000      0.300000      4.200000  
+50%           1.100000      2.600000      5.900000  
+75%           1.950000    204.000000     10.600000  
+max          10.200000   1430.000000    572.000000  
+std           1.293658    304.460149     26.140960  
+2024-10-17 09:38:51,390 - root - INFO - 15 features out of 16 have missing values.
+2024-10-17 09:38:51,392 - root - INFO - wse1988 is missing the least data in the dataset: 0.34%
+2024-10-17 09:38:51,392 - root - INFO - turb_fnu is missing the most data in the dataset: 6.20%
+2024-10-17 09:38:51,393 - root - INFO - The mean percentage of missing values in the dataset is: 
+ 0.97%
+2024-10-17 09:38:51,395 - root - WARNING - 6.20% of the values are missing from turb_fnu. Imputing missing values.
+2024-10-17 09:38:52,106 - root - INFO - Correlation heatmap has been saved to logs/figures/correlation_heatmap.png
+2024-10-17 09:38:54,654 - root - INFO - Boxplots of numerical features have been saved to logs/figures/boxplots.png
+2024-10-17 09:39:06,884 - root - INFO - Histograms of numerical features have been saved to logs/figures/histograms.png
